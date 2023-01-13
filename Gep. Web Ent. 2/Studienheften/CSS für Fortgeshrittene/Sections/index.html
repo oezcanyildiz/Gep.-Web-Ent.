@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+    h1{
+        font-family: 'Oswald', sans-serif;
+        text-shadow: #333 2px 5px 5px;
+
+    }
+    p{
+        font-family: 'Moon Dance', cursive;
+        text-shadow: #345 2px 2px 2px;
+
+    }
+    article{
+        width: 200px;
+        height: 200px;
+        background-image: linear-gradient(rgb(238, 5, 5),rgb(0, 0, 0));
+        color: #fff;
+        font-size: xx-large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: #111 4px 4px 10px, rgb(232, 252, 8) -4px -4px 10px;
+        cursor: pointer;
+        margin: 10px;
+    }
+    article:hover{
+        background-image: linear-gradient(#666,#aaa);
+        font-size:50px;
+        border-radius:3px ;
+
+    }
+    table{
+        border: 1px solid #aaa;
+        margin: 20px;
+        padding: 5px;
+    }
+    td{
+        padding: 3px;
+
+
+    }
+    th{
+        padding-bottom: 5px;
+    }
+    tr:nth-child(even){
+        background-color: #ddd;
+    }
+    .bosluk{
+        width: 100%;
+        background-image: linear-gradient(yellow,blue);
+        height: 500px;
+    }
+    #ue1,#ue2,#ue3{
+        width: 100%;
+        background-image: linear-gradient(yellow,blue);
+        height: 700px;
+
+    }
+    div:target{
+        background-color: #def;
+    }
+    a{
+        text-decoration: none;
+        font-size: 50px;
+    }
+    a[href^="http"] {
+        color: black;
+    }
+    a[href$="pdf"] {
+        color: orange;
+    }
+
+</style>
+
+<body>
+    <h1>Bu nasil font </h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, dignissimos aliquid. Veniam, ex minus sed
+        exercitationem laboriosam necessitatibus amet magni, autem aperiam adipisci dolore praesentium unde accusamus
+        ullam molestias. Deserunt iste dolores quae impedit aperiam, officiis magnam a quos veniam temporibus iure,
+        nobis recusandae, non explicabo odio necessitatibus labore harum consequuntur. Nobis delectus, temporibus nemo
+        tempore laborum magni rerum quos ratione neque, provident eveniet molestiae veritatis aut ex. Autem facilis
+        perspiciatis nisi, provident vero quos repellendus tenetur qui sunt ex magni expedita excepturi, maxime cumque
+        rerum rem. Labore nulla et ad magni cum dolorem sapiente, sit nobis praesentium cupiditate officia.</p>
+        <article class="eins">
+            <p>Eins</p>
+
+        </article>
+
+    <section>
+        <table>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Telefon
+                </th>
+                <th>
+                    E-mail
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Thea
+                </td>
+                <td>
+                    12345665
+                </td>
+                <td>
+                    Thea@adwada
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Thea
+                </td>
+                <td>
+                    12345665
+                </td>
+                <td>
+                    Thea@adwada
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Thea
+                </td>
+                <td>
+                    12345665
+                </td>
+                <td>
+                    Thea@adwada
+                </td>
+            </tr>
+        </table>
+
+    </section>
+    <section>   
+        <ul>
+            <li>
+                <a href="#ue1"> Überschrift 1</a>
+            </li>
+            <li>
+                <a href="#ue2"> Überschrift 2</a>
+            </li>
+            <li>
+                <a href="#ue3"> Überschrift 3</a>
+            </li>
+        </ul>
+        
+    </section>
+    
+    <section class="bosluk">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nisi!</p>
+    </section>
+    <section>
+
+        <div id="ue1">
+            <h2>Überschrift 1</h2>
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+        <div id="ue2">
+            <h2>Überschrift 2</h2>
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+        <div id="ue3">
+            <h2>Überschrift 3</h2>
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+    </section>
+
+    <section>
+        <p>
+            <a href="tabelle.html">Email</a> <br>
+            <a href="https://www.sgd-campus.de/#/">externe link</a> <br>
+            <a href="beispiel.pdf">PDF-Dokument</a>
+        </p>
+    </section>
+    <section id="submit">
+        <a href="#">Ein link</a>
+    </section>
+
+    </body>
+
+</html>

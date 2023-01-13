@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 5</title>
+    <style>
+        canvas{
+            background-color: black;
+        }
+    </style>
+    <script>
+        window.onload=function(){
+            var canvas=document.getElementById('mein-logo');
+            var context=canvas.getContext('2d');
+            context.strokeStyle="rgb(0,220,0)";
+            context.lineWidth=4;;
+            context.beginPath();
+            // y harfi
+            context.moveTo(0,0);
+            context.lineTo(10,10);
+            context.moveTo(10,10);
+            context.lineTo(20,0);
+            context.moveTo(10,10);
+            context.lineTo(10,20);
+            // I harfi
+            context.moveTo(25,0);
+            context.lineTo(25,20);
+            //L harfi
+            context.moveTo(30,0);
+            context.lineTo(30,20);
+            context.moveTo(28,18)
+            context.lineTo(40,18)
+            //d harfi 
+            context.moveTo(45,0);
+            context.lineTo(45,20);
+
+            context.stroke();
+            context.closePath();
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <h3>Ein Logo für meine tolle Firma</h3>
+    <canvas id="mein-logo" width="500" height="100">
+        <p>Ihre Browser unterstützt leider das canvas-Element nicht!</p>
+    </canvas>
+    
+</body>
+</html>

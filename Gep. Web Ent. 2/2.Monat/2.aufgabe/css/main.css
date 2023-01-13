@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none; 
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background: white;
+    color: #3c3c3c;
+    border-radius: 5px;
+
+}
+.side-container .sidebar{
+    width: auto;
+    position: fixed;
+    height: 100%;
+    background-color: #515252;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    overflow-x: hidden;
+    display: block;
+}
+.side-container .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+.side-container .sidebar ul li:hover {
+    background-color: black;
+    color: #515252;
+    transition: 1s;
+}
+.side-container .sidebar .social-media{
+    position: absolute;
+    display: flex;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+.side-container .sidebar .social-media a{
+    display: block;
+    width: 40px;
+    background: black;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    border-radius: 4px;   
+}
+.side-container .sidebar .social-media a:hover{
+    color: white;
+    background-color:#515252 ;
+    border: 1px solid black;
+}
+.main{
+    padding-left: 220px;
+    display: block;
+    padding-top: 10px;
+}
+.main .img-1{
+    width: 30%;
+    height: 300px;
+}
+.main .img-2{
+    width: 40%;
+    height: 300px;
+
+
+}
+.main .img-3{
+    width: 25%;
+    height: 300px;
+}
+.main p{
+    font-size: 50px;
+    color: Black;
+    text-align: center;
+    font: 50px Arial, sans-serif
+}
+.main p span{
+    color: red;
+}
+/* article { */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+} */
+.container {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.container span{
+    
+}
+
+

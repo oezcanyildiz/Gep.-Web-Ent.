@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einsendeaufgabe</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 id="datum"></h1>
+    <br>
+
+    <img src="img/steine1.jpg" id="bild1" onmouseover="setNewImage(this.id, 'img/steine1_mod.jpg')" onmouseout="setNewImage(this.id, 'img/steine1.jpg')">
+    <img src="img/steine2.jpg" id="bild2" onmouseover="setNewImage(this.id, 'img/steine2_mod.jpg')" onmouseout="setNewImage(this.id, 'img/steine2.jpg')">
+    <img src="img/steine3.jpg" id="bild3" onmouseover="setNewImage(this.id, 'img/steine3_mod.jpg')" onmouseout="setNewImage(this.id, 'img/steine3.jpg')">
+    <br>
+    <br>
+    <form action="" onsubmit="return pruefung()">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Geben Sie bitte ihre Email ein." size="30" maxlength="50"><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Bitte geben Sie Ihre Password ein." size="30" maxlength="50"><br>
+        <input type="submit" value="Login">
+    </form>
+
+    <script src="script.js">
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,197 @@
+*{
+    font-family: 'Pacifico', cursive;
+}
+/* Global CSS  */
+.border{
+    border: 0.5 solid black;
+    border-radius: 5px;
+
+}
+.NoDec{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* Main CSS  */
+body{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto auto auto auto;
+    min-width: 100vh;
+    min-height: 100vh;
+    padding: 10px;
+    background-color: rgb(22, 22, 22);
+
+}
+header{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 10px 50% 10px 50%;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    margin: 3px;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+
+}
+nav{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: large;
+    transition:all 0.5s ease;
+}
+nav ul li a:hover{
+    border-bottom:2px solid white;
+    color: white;
+    font-size: x-large;
+}
+aside{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: bisque;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+main{
+    grid-column: 2/3;
+    grid-row:3/4 ;
+    background-color: cornsilk;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+footer{
+    grid-column: 1/3;
+    grid-row: 4/5;
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 5px;
+}
+#aufgabe{
+    color: white;
+    background-image: linear-gradient(grey,blue);
+    width: 100%
+}
+#aufgabe:hover{
+    background-image: linear-gradient(blue,grey);
+    border: 3px solid yellow;
+
+}
+#aufgabe3:focus{
+    border-color: black;
+    box-shadow: 0 0 3px black;
+}
+
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einsendeaufgabe</title>
+    <link rel="stylesheet" href="ea.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Firma ZAMAZOM</h1>
+    </header>
+    <nav>
+        <ul class="NoDec">
+            <li>
+                <a href="#">Start</a>
+            </li>
+            <li>
+                <a href="#">Aktuel</a>
+            </li>
+            <li>
+                <a href="#">Produkte</a>
+            </li>
+            <li>
+                <a href="#">Service</a>
+            </li>
+            <li>
+                <a href="#">Kontakt</a>
+            </li>
+        </ul>
+
+    </nav>
+    <aside>
+        <form>
+            <div class="mb-3">
+              <label for="aufgabe3" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="aufgabe3" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="aufgabe3" class="form-label">Password</label>
+              <input type="password" class="form-control" id="aufgabe3">
+            </div>
+            <input type="submit" class="btn btn-primary" value="Log In" id="aufgabe">
+          </form>
+
+
+
+    </aside>
+    <main>
+        <h2>Inhalt</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quisquam deserunt quas! Debitis vel excepturi
+            aliquid. Quas ad, recusandae reiciendis voluptatem quidem ipsam porro nobis voluptatum culpa omnis animi
+            aperiam laborum sunt assumenda nesciunt illo esse consequatur vero provident pariatur sit in repellat at!
+            Culpa laudantium accusantium sint neque esse mollitia veniam, perferendis dignissimos dolore tenetur
+            adipisci suscipit. Optio ipsam deserunt nisi eligendi est fugiat suscipit magnam accusantium assumenda? Eum
+            velit veniam doloribus delectus omnis excepturi, nihil est quisquam perferendis laborum. Nulla temporibus
+            error impedit officiis beatae eligendi, ad eos magni ipsam, non fugiat illum ipsa harum, quod ipsum. Ex!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque esse quo iure facere quibusdam doloribus sint velit saepe quidem sapiente amet aspernatur ab deserunt, soluta possimus ipsum molestiae non accusantium. Autem magni magnam, qui fugiat deleniti hic voluptates nisi nemo sint doloremque eaque aliquid ullam optio nesciunt laudantium eum fugit reprehenderit dolore maxime necessitatibus id odit illo laborum rem! Vero quaerat ducimus provident, eum pariatur, quod voluptatem temporibus molestias error quae porro asperiores explicabo veritatis laudantium in magnam adipisci mollitia. Recusandae excepturi rerum molestiae odit cum accusamus nesciunt, perferendis amet ipsa quos in veritatis ipsum earum perspiciatis odio? Magni, praesentium?
+        </p>
+
+    </main>
+    <footer>
+        <p>
+            <span>
+                C 2023
+            </span>
+        </p>
+
+    </footer>
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>
